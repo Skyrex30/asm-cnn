@@ -1,0 +1,8 @@
+Resize
+Rescale
+Lin in=784 out=1000
+ReLU
+Lin in=1000 out=1000
+ReLU
+Lin in=1000 out=10
+ArgMax

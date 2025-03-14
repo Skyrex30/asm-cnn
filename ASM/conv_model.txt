@@ -1,0 +1,12 @@
+Resize
+Rescale
+Conv in=1 out=16
+ReLU
+MaxPool
+Conv in=16 out=32
+ReLU
+MaxPool
+Linear in=1568 out=128
+ReLU
+Linear in=128 out=10
+ArgMax
